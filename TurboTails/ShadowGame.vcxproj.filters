@@ -1,0 +1,780 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{a3b27884-011f-40fa-ba9f-1d33baa41a9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component">
+      <UniqueIdentifier>{9b5d97d5-296b-42b2-9fb0-258312b78a1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{480d74bc-e977-4fd2-9f34-b5419b317a0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{32125ae8-aba6-4bcd-84e9-9bff1be49692}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Collider">
+      <UniqueIdentifier>{0cfb21a6-4936-4757-a03d-0f1be50fd859}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Draw">
+      <UniqueIdentifier>{add9e7fa-e2df-4854-bf8e-95525447d47a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{3f39f1be-a4e4-4f24-b11b-2ed5c24f2846}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State">
+      <UniqueIdentifier>{3c846783-468c-4e8e-a4af-a1cf973a1c0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{1fc9d949-45f2-4127-b792-b3ce7ae9ccab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{c6cb252b-6cbf-46ba-a5cc-b327649a5dee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Enemy">
+      <UniqueIdentifier>{30b27515-3d7b-4ff9-b470-8493a5109b55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\UI">
+      <UniqueIdentifier>{03cc8cf0-892c-47b0-9e92-a20daa186f0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Gimmick">
+      <UniqueIdentifier>{fb042717-68e6-4860-af0a-6ade340cda59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Item">
+      <UniqueIdentifier>{89b85202-9f94-4893-9496-58369f51a871}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationModel.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelManager.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Component\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Layer.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectDebug.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Parent.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshField.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="dbgstream.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw2D.cpp">
+      <Filter>Component\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawAnimModel.cpp">
+      <Filter>Component\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawBillboard.cpp">
+      <Filter>Component\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawBoard.cpp">
+      <Filter>Component\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawModel.cpp">
+      <Filter>Component\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawShadowAnimModel.cpp">
+      <Filter>Component\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawShadowModel.cpp">
+      <Filter>Component\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawShadowObject.cpp">
+      <Filter>Component\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="Post.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawAnim2D.cpp">
+      <Filter>Component\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="Polygon2D.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneChangeObject.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="StateManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>GameObject\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugCamera.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="UIManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ConcentrationLine.cpp">
+      <Filter>GameObject\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Jewel.cpp">
+      <Filter>GameObject\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveFloor.cpp">
+      <Filter>GameObject\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateInstance.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="JewelUI.cpp">
+      <Filter>GameObject\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectRod.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="StageSelect.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Trampoline.cpp">
+      <Filter>GameObject\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadObject.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GimmickManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetObject.cpp">
+      <Filter>GameObject\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Skydome.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Score.cpp">
+      <Filter>GameObject\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Key.cpp">
+      <Filter>GameObject\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Tutorial.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="DashPanel.cpp">
+      <Filter>GameObject\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="Result.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Elevator.cpp">
+      <Filter>GameObject\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="Scaffold.cpp">
+      <Filter>GameObject\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerState.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionKey.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraState.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CRIAudio.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiDrawModel.cpp">
+      <Filter>Component\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiGameObject.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="StageManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleState.cpp">
+      <Filter>State</Filter>
+    </ClCompile>
+    <ClCompile Include="Pch.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="DashGauge.cpp">
+      <Filter>GameObject\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="TitlePlayer.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleLogo.cpp">
+      <Filter>GameObject\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Balloon.cpp">
+      <Filter>GameObject\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="Goal.cpp">
+      <Filter>GameObject\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="StageSelectObject.cpp">
+      <Filter>GameObject\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="Load.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseUI.cpp">
+      <Filter>GameObject\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectButton.cpp">
+      <Filter>GameObject\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Luminance.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Bloom.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Ring.cpp">
+      <Filter>GameObject\Gimmick</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawInterface.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="ManagerData.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationModel.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelManager.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCollider.h">
+      <Filter>Component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleCollider.h">
+      <Filter>Component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectDebug.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="File.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Parent.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshField.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="dbgstream.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw2D.h">
+      <Filter>Component\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawAnimModel.h">
+      <Filter>Component\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawBillboard.h">
+      <Filter>Component\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawBoard.h">
+      <Filter>Component\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawModel.h">
+      <Filter>Component\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawShadowAnimModel.h">
+      <Filter>Component\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawShadowModel.h">
+      <Filter>Component\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawShadowObject.h">
+      <Filter>Component\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Post.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Polygon2D.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawAnim2D.h">
+      <Filter>Component\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneChangeObject.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="TargetManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="StateManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>GameObject\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugCamera.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="UIManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcentrationLine.h">
+      <Filter>GameObject\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Jewel.h">
+      <Filter>GameObject\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveFloor.h">
+      <Filter>GameObject\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateInstance.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="JewelUI.h">
+      <Filter>GameObject\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="StageSelect.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectRod.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Trampoline.h">
+      <Filter>GameObject\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadObject.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="GimmickManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TargetObject.h">
+      <Filter>GameObject\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Skydome.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Score.h">
+      <Filter>GameObject\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Key.h">
+      <Filter>GameObject\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Tutorial.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="DashPanel.h">
+      <Filter>GameObject\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="Result.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Elevator.h">
+      <Filter>GameObject\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="Scaffold.h">
+      <Filter>GameObject\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerState.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionKey.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraState.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CRIAudio.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiDrawModel.h">
+      <Filter>Component\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiGameObject.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="StageManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleState.h">
+      <Filter>State</Filter>
+    </ClInclude>
+    <ClInclude Include="DashGauge.h">
+      <Filter>GameObject\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleLogo.h">
+      <Filter>GameObject\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="TitlePlayer.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Balloon.h">
+      <Filter>GameObject\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="Goal.h">
+      <Filter>GameObject\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="StageSelectObject.h">
+      <Filter>GameObject\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseUI.h">
+      <Filter>GameObject\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Load.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectButton.h">
+      <Filter>GameObject\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Luminance.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Bloom.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Ring.h">
+      <Filter>GameObject\Gimmick</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="shader\Common.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\DepthVS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\PcfPS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\UnlitTextureVS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\UnlitTexturePS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\GrayPS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\GrayVS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\WipeVS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\WipePS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\DissolvePS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\ToonPS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\ToonVS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\LightPS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\VertexLightingVS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\VertexLightingPS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\MaterialColorPS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\MaterialColorVS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\UnlitColorPS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\MultiVertexLightingVS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\MultiVertexLightingPS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\MultiMaterialColorVS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\MultiMaterialColorPS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\GaugeVS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\CircleGaugePS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\DistortionVS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\DistortionPS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\MultiDepthVS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\MultiPCFPS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\BloomVS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\BloomPS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\MultiMaterialColorBloomVS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\MultiMaterialColorBloomPS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\LuminanceVS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\LuminancePS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\MergeVS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\MergePS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="asset\TurboTailsLogo.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="asset\TurboTailsLogo_002.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

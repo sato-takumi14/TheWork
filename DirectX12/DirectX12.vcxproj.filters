@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{a7500532-f8f1-4cf4-be4a-22bd2785c757}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{c370feec-8ec1-4e56-90e1-531beb098b91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{754f9ebc-31c8-4a97-9ef7-90deadafa645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Component">
+      <UniqueIdentifier>{1dd9905f-ed32-4a28-9d79-1163bf1baeb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{3cd33d59-f1aa-49fc-89dc-e57d52703acd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{01e718eb-1689-4057-bab8-ffb66616519e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{a7fe4fd8-0924-4f76-9b7d-f117cc5caf47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State">
+      <UniqueIdentifier>{3ba54198-6962-443d-adc6-5c60601a2dea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Collider">
+      <UniqueIdentifier>{2c0bc8cd-5853-4be8-bd95-dae8ac2de25c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Draw">
+      <UniqueIdentifier>{80c3172f-b906-4d3c-a7e9-e413da019aae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Pch.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Camera.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Player.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject\Polygon2D.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\SceneManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="System\AssimpLoader.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Buffer.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Layer.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Renderer.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Shader.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Texture.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\TestScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Input.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\InputKey.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\CreateInstance.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Collider\Collider.cpp">
+      <Filter>Component\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Time.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Audio.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Draw\DrawModel.cpp">
+      <Filter>Component\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\ModelManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Debug.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Network.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\StateManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Component\Parent.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Window.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\Manager.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Interface\Component.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\GameObject.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Interface.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Scene.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Camera.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Player.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject\Polygon2D.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Transform.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\SceneManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="System\AssimpLoader.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Buffer.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\HelperFunction.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Layer.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Renderer.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Shader.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Texture.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Vector.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\TestScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Input.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\InputKey.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\Manager.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="System\CreateInstance.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Collider\Collider.h">
+      <Filter>Component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Time.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Draw\DrawModel.h">
+      <Filter>Component\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\DrawInterface.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Audio.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\ModelManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="System\File.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Debug.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Network.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\State.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\StateManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Parent.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Window.h">
+      <Filter>System</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shader\UnlitTexturePS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\UnlitTextureVS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Shader\Common.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
